@@ -244,4 +244,4 @@ This is Project 4 of a 4-project AI evaluation engineering portfolio:
 
 **Abigael Cherotich** — Data Analyst & AI Evaluation Specialist
 
-Nairobi, Kenya | [LinkedIn]([https://www.linkedin.com/in/abigael-cherotich/])
+Nairobi, Kenya | [LinkedIn]([https://www.linkedin.com/in/abigael-cherotich/)
