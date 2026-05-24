@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "run_timestamp": "2026-05-24 19:37:14",
+    "model_evaluated": "gpt-3.5-turbo",
+    "total_questions": 30,
+    "evaluator": "Abigael Cherotich"
+  },
+  "summary": {
+    "overall_pass_rate": 96.7,
+    "average_score": 0.8307,
+    "total_passed": 29,
+    "total_failed": 1
+  },
+  "by_domain": {
+    "ECON": {
+      "pass_rate": 100.0,
+      "avg_score": 0.892,
+      "n_questions": 10
+    },
+    "DATA": {
+      "pass_rate": 100.0,
+      "avg_score": 0.8,
+      "n_questions": 10
+    },
+    "RES": {
+      "pass_rate": 90.0,
+      "avg_score": 0.8,
+      "n_questions": 10
+    }
+  },
+  "by_difficulty": {
+    "Easy": {
+      "pass_rate": 100.0,
+      "avg_score": 0.86,
+      "n_questions": 10
+    },
+    "Medium": {
+      "pass_rate": 94.1,
+      "avg_score": 0.8,
+      "n_questions": 17
+    },
+    "Hard": {
+      "pass_rate": 100.0,
+      "avg_score": 0.9067,
+      "n_questions": 3
+    }
+  },
+  "rubric_dimensions": {
+    "concept_score": 0.5767,
+    "accuracy_score": 1.0,
+    "clarity_score": 1.0,
+    "completeness_score": 1.0
+  },
+  "failure_modes": {
+    "pass": 29,
+    "missing_concepts": 1
+  },
+  "recommendations": [
+    "Focus improvement on 'DATA' domain \u2014 lowest avg score: 0.8000",
+    "'concept_score' dimension has most room for improvement (score: 0.5767). Refine prompts to explicitly request this.",
+    "Re-run failed questions with temperature=0 to test whether failures are consistent or random.",
+    "Review 'missing_concepts' failures \u2014 model may need more specific concept prompting for these topics.",
+    "Compare GPT-3.5-turbo results against GPT-4 to measure performance gap on Hard questions."
+  ]
+}
