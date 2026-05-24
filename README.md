@@ -5,8 +5,6 @@ at scale. Evaluates GPT-3.5-turbo across 30 questions using a
 multi-dimensional scoring rubric, classifies failure modes, and
 produces a structured JSON report with recommendations.
 
-Built as part of an AI evaluation engineering portfolio.
-
 ---
 
 ## What it does
